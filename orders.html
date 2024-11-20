@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodies Dashboard</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/orders.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <h2>Foodies</h2>
+            </div>
+            <nav class="menu">
+                <a href="#" class="menu-item active">Dashboard</a>
+                <a href="#" class="menu-item">Orders <span class="badge">25</span></a>
+                <a href="#" class="menu-item">Menu</a>
+                <a href="#" class="menu-item">Customer</a>
+                <a href="#" class="menu-item">Payment</a>
+                <a href="#" class="menu-item">Analytics</a>
+                <a href="#" class="menu-item">Setting</a>
+                <a href="#" class="menu-item">Logout</a>
+            </nav>
+            <button class="add-menu-btn">+ Add Menus</button>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search here">
+                </div>
+                <div class="header-icons">
+                    <span class="icon notifications"></span>
+                    <span class="icon messages"></span>
+                    <span class="icon settings"></span>
+                    <span class="user-profile">Hello! Alex Griffine</span>
+                </div>
+            </header>
+
+            <!-- Order Details -->
+            <section class="order-details">
+                <div class="order-header">
+                    <h2>Order ID #526429</h2>
+                    <p>Order / Order Details</p>
+                </div>
+                
+                <div class="order-content">
+                    <!-- Customer Info -->
+                    <div class="customer-info">
+                        <img src="images/profile-picture.jpg" alt="Customer photo" class="customer-photo">
+                        <h3>Zara Wardany</h3>
+                        <span>Customer</span>
+                        <div class="order-address">
+                            <p>6th Ainevw #26 London</p>
+                        </div>
+                        <div class="order-notes">
+                            <h4>Order Notes</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque, ultrices eget tincidunt.</p>
+                        </div>
+                    </div>
+
+                    <!-- Order Items -->
+                    <div class="order-items">
+                        <table>
+                            <tr>
+                                <th>Items</th>
+                                <th>Qty</th>
+                                <th>Price</th>
+                                <th>Total Price</th>
+                            </tr>
+                            <tr>
+                                <td><img src="images/image.jpg" alt="Item"> Cooked meat and veggies kebab</td>
+                                <td>2x</td>
+                                <td>$15.99</td>
+                                <td>$30.99</td>
+                            </tr>
+                            <tr>
+                                <td><img src="images/image.jpg" alt="Item"> Noodle dish on white ceramic bowl</td>
+                                <td>5x</td>
+                                <td>$14.25</td>
+                                <td>$70.25</td>
+                            </tr>
+                            <tr>
+                                <td><img src="images/image.jpg" alt="Item"> Cooked meat and veggies kebab</td>
+                                <td>8x</td>
+                                <td>$10.85</td>
+                                <td>$80.85</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <!-- Delivery Info -->
+                    <div class="delivery-info">
+                        <div class="delivery-status">
+                            <h4>Delivery Boy</h4>
+                            <div class="delivery-boy-info">
+                                <img src="images/profile-picture.jpg" alt="Delivery Boy">
+                                <div>
+                                    <p>David Morel</p>
+                                    <p>4.9 based on 100 ratings</p>
+                                </div>
+                            </div>
+                            <div class="delivery-contact">
+                                <p>Phone: +15 4602 8587</p>
+                                <p>Delivery Time: 5:30 PM</p>
+                            </div>
+                        </div>
+                        <div class="map">
+                            <!-- Place map here -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
